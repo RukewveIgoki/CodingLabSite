@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingLab</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <nav>
+            <h1 class="icon">CodingLab</h1>
+            <div class="mediaspan">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </div>
+            <ul class="navitems">
+                <li><a href="#">Home</a></li> <span class="Home"></span>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <button id="Login">Login</button>
+        </nav>
+         
+        <div id="Formdiv">
+             <form action="" id="form">
+                <h2 class="LoginHead">Login</h2> 
+                <div id="iconspan">
+                    <span class="first"></span>
+                    <span class="second"></span>
+                </div>
+                <i class="fa-regular fa-envelope" id="envelope"></i><input type="email" placeholder="Enter your email" id="Email" />
+                <i class="fa-solid fa-lock" id="lock"></i><input type="password" placeholder="Enter your password" id="Password" />
+                <input type="checkbox" id="check" /> <h3 class="Remember">Remember Me</h3>
+                <a href="#" class="forget">Forgot Password?</a>
+                <button type="button" id="LoginNow">Login Now</button>
+                <h4>Don't have an account?</h4> <a href="#" class="Signupbtn" onclick="SignUpformShow()">Signup</a>
+                
+             </form>
+        </div>
+        <div id="Signupform">
+            <form action="" id="formSign">
+                <h3 class="Signuphead"> Sign up </h3>
+                <div id="signupicon">
+                    <span class="third"></span>
+                    <span class="fourth"></span>
+                </div>
+                <i class="fa-regular fa-envelope" id="envelope"></i><input type="email" placeholder="Enter your email" id="EmailSign" />
+                <i class="fa-solid fa-lock" id="locksign"></i><input type="password" placeholder="Enter your password" id="PasswordSign" />
+                <i class="fa-solid fa-lock" id="locksign2"></i><input type="password" placeholder="Enter your password" id="PasswordSign2" />
+                <button type="button" class="SignUpNow">SignUp Now</button>
+                <h5>Already have an account?</h5> <a href="#" class="Loginbtn" onclick="LoginFormShow()">Login</a>
+            </form>
+        </div>
+           
+    </div>
+    <div class="content">
+        <h2 class="Research">Research about CodingLab: Your Favorite Lab </h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi repudiandae veniam dicta itaque earum placeat <br /> odio recusandae quas, fugit ratione blanditiis a non ut ipsa maxime, ullam facilis <br /> alias perspiciatis?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit voluptatum eveniet nisi aperiam <br /> dicta, eligendi numquam obcaecati maiores nobis impedit harum expedita similique necessitatibus et doloremque, illo repudiandae
+             ipsam perspiciatis.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Similique, qui! Facere iure nam, cupiditate eos qui asperiores, fuga unde maxime veritatis similique saepe est nemo, repudiandae non dolores. Ducimus, iure.
+           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet soluta minus, maxime doloremque doloribus, molestias non in ab numquam, tempore nesciunt architecto fugit officiis cupiditate <br/> expedita. Vel possimus earum ut.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eaque dolore repellendus, perspiciatis quaerat <br/> non commodi aliquid doloribus molestias deleniti <br />similique, ratione, ex voluptate vitae magni repudiandae deserunt alias beatae.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quas. Accusamus quia molestias ipsum perferendis quisquam aut amet quidem officiis veritatis minima magnam, pariatur excepturi sunt debitis a eaque voluptatibus.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum temporibus aperiam aliquid ducimus sint libero id dolorum iusto maiores, in perspiciatis nihil minima esse iure qui suscipit sunt odio. Repellat.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore corporis ullam eos eaque voluptatem animi assumenda distinctio deleniti quam laborum recusandae, itaque odit sit officiis similique, cumque sunt iure. Magnam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi autem ducimus velit culpa obcaecati perferendis omnis officia, tempore aut unde aliquid, suscipit consequuntur vitae? Itaque aspernatur non ea unde.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptate obcaecati aspernatur molestias, inventore odit magnam perferendis eligendi itaque ullam. Perferendis vel labore veritatis mollitia sint itaque exercitationem qui doloremque.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quas. Accusamus quia molestias ipsum perferendis quisquam aut amet quidem officiis veritatis minima magnam, pariatur excepturi sunt debitis a eaque voluptatibus.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum temporibus aperiam aliquid ducimus sint libero id dolorum iusto maiores, in perspiciatis nihil minima esse iure qui suscipit sunt odio. Repellat.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore corporis ullam eos eaque voluptatem animi assumenda distinctio deleniti quam laborum recusandae, itaque odit sit officiis similique, cumque sunt iure. Magnam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi autem ducimus velit culpa obcaecati perferendis omnis officia, tempore aut unde aliquid, suscipit consequuntur vitae? Itaque aspernatur non ea unde.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum voluptate obcaecati aspernatur molestias, inventore odit magnam perferendis eligendi itaque ullam. Perferendis vel labore veritatis mollitia sint itaque exercitationem qui doloremque.
+        </p>
+    </div>
+    
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/3f6a4b3e12.js" crossorigin="anonymous"></script>
+</body>
+</html>
