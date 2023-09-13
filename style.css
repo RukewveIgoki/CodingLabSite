@@ -1,0 +1,526 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 585px;
+    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(235, 42, 235, 0.313)),url(./laptopcover.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.content{
+    background: white;
+    height: 500px;
+    width: 100%;
+}
+.icon{
+    position: absolute;
+    left: 50px;
+    color: white;
+    font-size: 23px;
+    top: 15px;
+    overflow-x: hidden;
+    perspective: 100px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    word-spacing: 35px;
+}
+ul li{
+    display: inline;
+    position: relative;
+    top: 18px;
+    right: 470px;
+    font-size: 18px;
+    justify-content: space-between;
+  
+   
+}
+ul li a{
+ color: whitesmoke;
+ text-decoration: none;
+ 
+}
+ul li a:hover{
+    color: rgba(216, 17, 216, 0.911);
+}
+#Login{
+    width: 85px;
+    height: 30px;
+    border-radius: 5px;
+    background:transparent;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: 18px;
+    left: 200px;
+    overflow: hidden;
+}
+#Login:hover{
+    color: whitesmoke;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    border-color: rgba(216, 17, 216, 0.911);
+}
+#Login:active{
+    background: rgba(216, 17, 216, 0.911);
+    border-color: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+.Research{
+     color: rgba(216, 17, 216, 0.911);
+     position: relative;
+     top: 20px;
+     left: 9px;
+}
+p{
+    word-wrap: break-word;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    padding-bottom: 30px;
+    left: 9px;
+    
+}
+
+#form{
+    width: 320px;
+    height: 351px;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    left: 580px;
+    top: 170px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    opacity: 0;
+}
+#formSign{
+    width: 320px;
+    height: 380px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    left: 380px;
+    top: 140px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.3);
+    z-index: -1;
+    opacity: 0;
+}
+.Signuphead{
+    text-align: center;
+    padding-top: 17px;
+    letter-spacing: -1px;
+    font-size: 27px;
+}
+#locksign{
+    z-index: 1;
+    position: relative;
+    top: 77px;
+    left: 25px;
+    pointer-events: none;
+}
+#locksign2{
+    z-index: 1;
+    position: relative;
+    top: 58px;
+    left: 26px;
+    pointer-events: none;
+}
+.SignUpNow{
+    position: relative;
+   top: 74px;
+   cursor: pointer;
+   outline: none;
+   left: 22px;
+   width: 270px;
+   height: 34px;
+   border-radius: 8px;
+   border: none;
+   background: rgba(216, 17, 216, 0.911);
+   color: white;
+}
+.SignUpNow:hover{
+    color: rgba(216, 17, 216, 0.911);
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.3s ease-in;
+}
+#signupicon{
+    cursor: pointer;
+  float: right;
+  position: absolute;
+    left: 279px;
+    top: 23px;
+}
+#signupicon span{
+    width: 23px;
+    height: 1.5px;
+    display: block;
+    background: black;
+    margin-bottom: 10px;
+    font-size: 1em;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.third{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+}
+.fourth{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 1px;
+    cursor: pointer;
+}
+#PasswordSign{
+    margin: 20px 0 20px 0;
+}
+.LoginHead{
+    text-align: center;
+    padding-top: 17px;
+    letter-spacing: -1px;
+    font-size: 27px;
+}
+input#Email{
+    position: relative;
+    top: 40px;
+    left: 22px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 8px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+}
+input#Password{
+    position: relative;
+    top: 40px;
+    left: 22px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 8px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+}
+input#EmailSign{
+    position: relative;
+    top: 40px;
+    left: 22px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 8px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+}
+input#PasswordSign2{
+    position: relative;
+    top: 40px;
+    left: 22px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 8px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+}
+input#PasswordSign{
+    position: relative;
+    top: 40px;
+    left: 22px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  padding-bottom: 8px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  outline: none;
+}
+.Home{
+    font-size: 1.5em;
+    width: 40px;
+    background-color: white;
+    height: 2px;
+    margin-top: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#Password{
+    margin-top: 30px;
+}
+#LoginNow{
+   position: relative;
+   top: 50px;
+   cursor: pointer;
+   outline: none;
+   left: 22px;
+   width: 270px;
+   height: 34px;
+   border-radius: 8px;
+   border: none;
+   background: rgba(216, 17, 216, 0.911);
+   color: white;
+}
+#LoginNow:hover{
+    color: rgba(216, 17, 216, 0.911);
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.3s ease-in;
+}
+#envelope{
+  position: relative;
+  top: 57.3px;
+  left: 23px;
+  z-index: 1;
+  pointer-events: none;
+}
+#lock{
+    z-index: 1;
+    position: relative;
+    top: 88px;
+    left: 23px;
+    pointer-events: none;
+}
+.forget{
+    position: relative;
+    top: 20px;
+    left: 175px;
+    text-decoration: none;
+}
+.Remember{
+    position: relative;
+    top: 38px;
+    left: 40px;
+    
+}
+h3{
+    font-size: 14px;
+}
+#check{
+    position: relative;
+    top: 57px;
+    left: 25px;
+    cursor: pointer;
+    
+}
+h4{
+    position: relative;
+    top: 67px;
+    font-size: 14px;
+    left: 54px;
+}
+h5{
+    position: relative;
+    top: 89px;
+    font-size: 14px;
+    left: 54px;
+}
+.Loginbtn{
+    position: relative;
+    top: 71px;
+    left: 213px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.Signupbtn{
+    position: relative;
+    top: 47px;
+    left: 200px;
+    text-decoration: none;
+    font-size: 15px;
+}
+#iconspan{
+  cursor: pointer;
+  float: right;
+  position: absolute;
+    left: 279px;
+    top: 23px;
+}
+#iconspan span{
+    width: 23px;
+    height: 1.5px;
+    display: block;
+    background: black;
+    margin-bottom: 10px;
+    font-size: 1em;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.first{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 2px;
+    cursor: pointer;
+}
+.second{
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 1px;
+    cursor: pointer;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    
+}
+.mediaspan{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    color: white; 
+    cursor: pointer;
+    opacity: 0;
+   
+}
+.mediaspan span{
+    width: 22px;
+    justify-content: space-between;
+    height: 1.5px;
+    display: block;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 3px;
+    background-color: azure;
+
+}
+#Login:hover{
+    scale: 1.1;
+    transition: all 2s ease;
+}
+
+
+@media screen and (max-width: 900px){
+    html,body{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    html{
+        min-height: 100%;
+    }
+    .content{
+       z-index: 111;
+    }
+    #Login{
+        float: left;
+        width: 70px;
+        position: relative;
+        left: -80px;
+        top: 510px;
+        transition: all 1s ease;
+    }
+    #Login.open{
+        left: 18px;
+    }
+    nav{
+        position: relative;
+    }
+    p{
+        word-wrap: break-word;
+        min-width: 150px;
+        font-size: 10px;
+        z-index: 111;
+    }
+    .container{
+        width: 100%;
+        height: 1200px;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .Research{
+        word-wrap: break-word;
+
+    }
+    ul li{
+      display: block;
+      right: 420px;
+      top: 10px;
+      margin-top: 90px;
+      opacity: 0;
+    }
+    
+   
+    .mediaspan{
+        top: 20px;
+        opacity: 10;
+    }
+    #form{
+        right: 600px;
+        position: relative;
+        
+    }
+    ul li{
+        margin-bottom: 90px;
+    }
+    ul.open{
+        position: relative;
+        left: 110px;
+        transition: all 3s ease;
+    }
+    .open li{
+        opacity: 10;
+        transition: all 3s ease;
+    }
+    .open span:nth-child(2){
+        opacity: 0;
+    }
+    .open span:nth-child(1){
+        transform: rotate(45deg);
+        position: relative;
+        top: 5px;
+        transition: all 1s ease;
+    }
+    .open span:nth-child(3){
+        transform: rotate(-45deg);
+        position: relative;
+        top: -4px;
+        transition: all 1s ease;
+    }
+    .icon{
+        position: relative;
+        left: 289px;
+        top: 20px;
+        font-size: 17px;
+    }
+    nav{
+        height: 80px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7));
+    }
+   
+}
